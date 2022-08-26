@@ -1,0 +1,35 @@
+.navbar-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    background-color: aliceblue;
+}
+
+.navbar-logo {
+    width: 8rem;
+    margin: .5rem 2rem;
+}
+
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5rem;
+}
+
+.navbar-links ul {
+    display: flex;
+    list-style: none;
+    gap: 8rem;
+}
+
+.navbar-links ul li {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.navbar-links ul li:hover {
+    transform: scale(1.5);
+    transition: .25s ease-in-out;
+}
