@@ -1,0 +1,43 @@
+.search-container {
+    display: flex;
+    margin-right: 3rem;
+}
+
+.search-form {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.search-input {
+    display: flex;
+    height: 2rem;
+    width: 16rem;
+    font-size: medium;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding-left: .5rem;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-btn {
+    display: flex;
+    height: 2.25rem;
+    border: none;
+    background-color: aliceblue;
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+.search-btn:active {
+    background-color: rgb(213, 227, 240);
+    border-radius: 100%;
+}
+
+.search-icon {
+    display: flex;
+    margin: auto;
+    font-size: large;
+}

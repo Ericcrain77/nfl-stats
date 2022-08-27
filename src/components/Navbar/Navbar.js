@@ -1,6 +1,7 @@
 import React from "react";
 import './navbar.css';
 import logo512 from '../../assets/images/logo512.png';
+import Search from "../Search/Search";
 
 function Navbar() {
 
@@ -11,6 +12,7 @@ function Navbar() {
                 <h1>NFL Stats</h1>
             </div>
             <div className="navbar-links">
+                <Search />
                 <ul>
                     <li>
                         Players
