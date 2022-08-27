@@ -6,14 +6,12 @@ function Navbar() {
 
     return (
         <nav className="navbar-container">
-            <div>
+            <div className="navbar-left">
                 <img src={logo512} className="navbar-logo" />
+                <h1>NFL Stats</h1>
             </div>
             <div className="navbar-links">
                 <ul>
-                    <li>
-                        Home
-                    </li>
                     <li>
                         Players
                     </li>

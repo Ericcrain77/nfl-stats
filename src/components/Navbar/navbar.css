@@ -7,15 +7,25 @@
     background-color: aliceblue;
 }
 
+.navbar-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-left h1 {
+    font-size: xx-large;
+    margin: auto 0 auto 2rem;
+}
+
 .navbar-logo {
-    width: 8rem;
-    margin: .5rem 2rem;
+    width: 6rem;
+    margin: .5rem 0 .5rem 15rem;
 }
 
 .navbar-links {
     display: flex;
     flex-direction: row;
-    margin-right: 5rem;
+    margin-right: 15rem;
 }
 
 .navbar-links ul {
@@ -25,11 +35,11 @@
 }
 
 .navbar-links ul li {
-    font-size: larger;
+    font-size: x-large;
     font-weight: 500;
 }
 
 .navbar-links ul li:hover {
-    transform: scale(1.5);
-    transition: .25s ease-in-out;
+    transform: scale(1.25);
+    transition: .4s ease-in-out;
 }
